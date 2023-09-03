@@ -1,0 +1,15 @@
+{"planList": [{
+    "name": "eric",
+    "courseList": [
+        {
+            "average": 100,
+            "credits": 100,
+            "name": "deanology"
+        },
+        {
+            "average": 80,
+            "credits": 3,
+            "name": "dwad"
+        }
+    ]
+}]}
