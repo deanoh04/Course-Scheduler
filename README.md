@@ -1,7 +1,7 @@
 # Dean Oh's CPSC 210 Course List Project
 
 ## What Will It Do and Who Will Use It?
-The project I have chosen for this course is an application
+The project is an application
 which allows the user to preview the weighted average of their 
 grades, allowing users to create course plans, inputting the courses and the expected averages 
 of chosen courses along with their credit values into such lists in order to give the user insight into what their
@@ -36,34 +36,8 @@ through visualizing my possible averages, and prevent constant worrying about wh
 - As a user, I want the option to load the previously saved CourseMatrix from file and resume where I left off with that CourseMatrix.
 
 
-# Instructions for Grader
-
-- You can generate the first required action related to adding Courses to a Course Plan by adding a new course plan, 
-navigating to it, adding a few courses and then pressing "filter by A's" to filter the courses in the plan that have A averages
-- You can generate the second required action related to adding Courses to a Course Plan by adding a new course plan,
-  navigating to it, adding a few courses and then pressing "delete course" with a course selected to delete a course from a plan
-- You can save the state of my application by pressing the save button in the main menu
-- You can reload the state of my application by pressing the load button in the main menu
 
 
-
-# Phase 4: Task 2
-If I create a new course plan named dean, select that course plan and add a new course 
-called cpsc 110, then select cpsc 110 and press delete, and then exit the program, I will get the \
-following output:
-
-dean was added to the matrix
-
-cpsc 110 was added to the plan dean
-
-cpsc 110 was removed from the plan dean
-
-# Phase 4: Task 3
-I think I would refactor the project in two major ways: firstly I would
-reduce code duplication in the UI class, perhaps by extracting out duplicated behaviour in 
-the model package by making the Course, Course Plan and CourseMatrix classes follow the
-composite pattern. This would allow me to reduce duplication in things like adding, removing 
-and getting list items by converting things into leaves and composites. 
 
 
 
