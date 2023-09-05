@@ -1,5 +1,10 @@
 # Dean Oh's CPSC 210 Course List Project
 
+
+##Demo Video
+[![](https://markdown-videos-api.jorgenkh.no/youtube/U310e5vYz48)](https://youtu.be/U310e5vYz48)
+
+
 ## What Will It Do and Who Will Use It?
 The project is an application
 which allows the user to preview the weighted average of their 
